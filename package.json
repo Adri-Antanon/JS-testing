@@ -1,0 +1,30 @@
+{
+  "name": "js-testing",
+  "description": "Platzi course about Jest and how it works in different frameworks such as React, Vue or Angular",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adri-Antanon/JS-testing.git"
+  },
+  "keywords": [
+    "jest",
+    "testing",
+    "react",
+    "js"
+  ],
+  "author": "Adri Antanon <adrianantanon@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Adri-Antanon/JS-testing/issues"
+  },
+  "homepage": "https://github.com/Adri-Antanon/JS-testing#readme",
+  "devDependencies": {
+    "babel-jest": "^27.0.2",
+    "babel-polyfill": "^6.26.0",
+    "jest": "^27.0.4"
+  }
+}

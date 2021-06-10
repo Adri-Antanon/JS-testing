@@ -7,12 +7,16 @@ describe("Common matchers", () => {
     name: "Adri",
     lastName: "Antanon",
   };
+  const user3 = {
+    name: "Adria",
+    lastName: "Antanon",
+  };
 
   test("should be equal each other", () => {
     expect(user).toEqual(user2);
   });
 
   test("shouldn't be equal each other", () => {
-    expect(user).not.toEqual(user2);
+    expect(user).not.toEqual(user3);
   });
 });

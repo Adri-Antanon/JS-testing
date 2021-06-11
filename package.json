@@ -30,5 +30,8 @@
     "babel-jest": "^27.0.2",
     "babel-polyfill": "^6.26.0",
     "jest": "^27.0.4"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
   }
 }

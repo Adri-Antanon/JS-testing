@@ -8,3 +8,17 @@ Object {
   "status": "Human",
 }
 `;
+
+exports[`It's time for the snapshots should fail the snapshot 1`] = `
+Object {
+  "createAt": 2021-06-14T07:49:31.122Z,
+  "id": 17,
+}
+`;
+
+exports[`It's time for the snapshots should have an exception 1`] = `
+Object {
+  "id": Any<Number>,
+  "name": "Adri",
+}
+`;
